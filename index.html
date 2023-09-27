@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.7.2-web/css/all.css">
+    <style>
+      html,body{
+        width: 100%;
+        height: 100%;
+      }
+      .section-box{
+        width: 100%;
+        height: 100%;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        padding-top: 150px;
+        text-align: center;
+      }
+      #Home{
+        background-image: url(./images/p0.jpg);
+      }
+      #About{
+        background-image: url(./images/p1.jpg);
+      }
+      #News{
+        background-image: url(./images/p2.jpg);
+      }
+      #Service{
+        background-image: url(./images/p3.jpg);
+      }
+      #Contant{
+        background-image: url(./images/p4.jpg);
+      }
+      section h1{
+        margin-bottom: 30px;
+      }
+      .txt-bg{
+        background-color: rgba(0,0,0,.3);
+
+        border-radius: 30px;
+        padding: 50px;
+      }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand js-scroll-trigger" href="#Home">
+        <img src="./images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link js-scroll-trigger" href="#Home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#News">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#Service">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#Contant">Contant</a>
+              </li>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section class="section-box" id="Home">
+        <div class="container">
+          <div class="row txt-bg">
+            <div>
+              <h1><i class="bi bi-house text-warning"></i>Home</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem accusamus voluptatum repellat eos, perspiciatis pariatur quibusdam ratione iste non odio!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-box" id="About">
+        <div class="container">
+          <div class="row txt-bg">
+            <div>
+              <h1><i class="bi bi-file-earmark-person text-success"></i>About</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem accusamus voluptatum repellat eos, perspiciatis pariatur quibusdam ratione iste non odio!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-box" id="News">
+        <div class="container">
+          <div class="row txt-bg">
+            <div>
+              <h1><i class="bi bi-newspaper text-danger"></i>News</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem accusamus voluptatum repellat eos, perspiciatis pariatur quibusdam ratione iste non odio!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-box" id="Service">
+        <div class="container">
+          <div class="row txt-bg">
+            <div>
+              <h1><i class="fas fa-running text-muted"></i>Service</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem accusamus voluptatum repellat eos, perspiciatis pariatur quibusdam ratione iste non odio!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-box" id="Contant">
+        <div class="container">
+          <div class="row txt-bg">
+            <div>
+              <h1><i class="bi bi-file-earmark-ruled text-primary"></i>Contant</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem accusamus voluptatum repellat eos, perspiciatis pariatur quibusdam ratione iste non odio!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script src="./js/jquery-3.2.1.min.js"></script>
+      <script src="./js/jquery.easing.min.js"></script>
+      <script src="./js/freelancer.min.js"></script>
+      <script src="./js/bootstrap-4.0.0.js"></script>
+      <script src="./js/popper.min.js"></script>
+</body>
+</html>
